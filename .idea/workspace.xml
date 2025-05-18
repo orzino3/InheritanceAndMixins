@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4abca5d-f2f1-4907-9a54-84fd3593604c" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/Daisy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sunfish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Canary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Canary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Flower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Flower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OakTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OakTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PineTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PineTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Plant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuestionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestionProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RedChest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Robin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Salmon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Salmon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/YellowFish.java" beforeDir="false" />
-    </list>
+    <list default="true" id="c4abca5d-f2f1-4907-9a54-84fd3593604c" name="Changes" comment="first commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +19,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="24d57181-b33d-4e65-91d3-3587da5c0243" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -51,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/אור זינו/Downloads/iCloud Backup/Assignment1_InheritanceAndMixins-main",
     "node.js.detected.package.eslint": "true",
@@ -59,6 +47,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -96,6 +85,7 @@
       <workItem from="1746886673728" duration="6476000" />
       <workItem from="1747160252154" duration="2657000" />
       <workItem from="1747586019219" duration="8728000" />
+      <workItem from="1747595613220" duration="227000" />
     </task>
     <task id="LOCAL‎-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -105,7 +95,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1747587435288</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL‎-00002" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1747595636854</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL‎-00002" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1747595636854</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
