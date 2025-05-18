@@ -40,6 +40,9 @@
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="24d57181-b33d-4e65-91d3-3587da5c0243" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -70,7 +73,7 @@
 }]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="MAIN_CLASS_NAME" value="CollinsQuillian.Main" />
       <module name="ObjectOrientedProgramming2" />
       <method v="2">
         <option name="Make" enabled="true" />
