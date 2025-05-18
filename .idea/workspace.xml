@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4abca5d-f2f1-4907-9a54-84fd3593604c" name="Changes" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abstract/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abstract/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Canary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Canary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Daisy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Daisy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abstract/Fish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Flower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abstract/Flower.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Living.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abstract/Living.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OakTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OakTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PineTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PineTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abstract/Plant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/QuestionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuestionProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Robin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Robin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Salmon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Salmon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sunfish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sunfish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Abstract/Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MixinModel/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +56,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\אור זינו\OneDrive\Desktop\Computer Science\OOP2\FirstProject\ObjectOrientedProgramming2\src" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CollinsQuillian.Main" />
@@ -105,7 +95,7 @@
       <workItem from="1746886673728" duration="6476000" />
       <workItem from="1747160252154" duration="2657000" />
       <workItem from="1747586019219" duration="8728000" />
-      <workItem from="1747595613220" duration="860000" />
+      <workItem from="1747595613220" duration="1035000" />
     </task>
     <task id="LOCAL‎-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -131,7 +121,23 @@
       <option name="project" value="LOCAL‎" />
       <updated>1747595855959</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL‎-00004" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1747596569642</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL‎-00004" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1747596569642</updated>
+    </task>
+    <task id="LOCAL‎-00005" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1747596606213</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL‎-00005" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1747596606213</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
