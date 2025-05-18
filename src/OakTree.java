@@ -1,2 +1,12 @@
-package PACKAGE_NAME;public class OakTree {
+public class OakTree extends Tree{
+
+    @Override
+    public boolean hasProperty(String property) {
+        return false;
+    }
+
+    @Override
+    public boolean isA(String classification) {
+        return false;
+    }
 }

@@ -1,2 +1,2 @@
-package PACKAGE_NAME;public class Flower {
+public abstract class Flower extends Plant{
 }

@@ -1,2 +1,2 @@
-package PACKAGE_NAME;public class YellowFish {
+public class YellowFish extends Fish{
 }
