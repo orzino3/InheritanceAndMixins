@@ -6,7 +6,7 @@ import java.util.*;
 
 public class QuestionProcessor {
     private final List<String> classes = List.of("animal", "bird", "living", "fish", "plant", "flower","tree");
-    private final List<String> characteristics = List.of("can fly", "can swim", "can grow", "has wings", "has scales", "has gills", "red", "yellow", "can sing","green","has leaves");
+    private final List<String> characteristics = List.of("can fly", "can swim", "can grow", "has wings", "has scales", "has gills", "red", "yellow", "can sing","green","has leaves","has barks","big", "has branches");
     private final Map<String, Living> objectMap = new HashMap<>();
 
     public QuestionProcessor() {
