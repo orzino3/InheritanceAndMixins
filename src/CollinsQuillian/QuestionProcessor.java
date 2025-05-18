@@ -7,7 +7,7 @@ import java.util.*;
 public class QuestionProcessor {
     private final List<String> classes = List.of("animal", "bird", "living", "fish", "plant", "flower","tree");
     private final List<String> characteristics = List.of("can fly", "can swim", "can grow", "has wings", "has scales", "has gills", "red", "yellow", "can sing","green","has leaves");
-    private Map<String, Living> objectMap = new HashMap<>();
+    private final Map<String, Living> objectMap = new HashMap<>();
 
     public QuestionProcessor() {
         this.objectMap.put("canary", new Canary());
@@ -22,17 +22,13 @@ public class QuestionProcessor {
 
     public String answerQuestion(String question) {
         question = question.trim().toLowerCase();
-        String text = "";
 
         for (String key : this.objectMap.keySet()) {
             if (question.contains(key)) {
                 Living obj = this.objectMap.get(key);
 
-                // שאלת isA
                 for (String classification : classes) {
                     if (( question.contains("does")) && question.contains(classification) && !question.contains("color")&& !question.contains("has")) {
-
-
                         return obj.isA(classification) ? "Yes\n" + getInheritanceChain(obj) : "No\n" + getInheritanceChain(obj);
                     }
                 }
@@ -57,7 +53,6 @@ public class QuestionProcessor {
             currentClass = currentClass.getSuperclass();
         }
 
-        // להסיר את החץ האחרון
         if (text.length() >= 4) {
             text.setLength(text.length() - 4);
         }
