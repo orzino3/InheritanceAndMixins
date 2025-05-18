@@ -1,4 +1,8 @@
-public class Daisy extends Flower{
+package CollinsQuillian;
+
+import CollinsQuillian.Abstract.Flower;
+
+public class Daisy extends Flower {
     @Override
     public boolean isA(String classification){
         return classification.equalsIgnoreCase("daisy") || super.isA(classification);

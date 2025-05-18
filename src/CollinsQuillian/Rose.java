@@ -1,3 +1,7 @@
+package CollinsQuillian;
+
+import CollinsQuillian.Abstract.Flower;
+
 public class Rose extends Flower
 {
     @Override

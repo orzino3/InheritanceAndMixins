@@ -1,7 +1,9 @@
+package CollinsQuillian.Abstract;
+
 public abstract class Tree extends Plant{
     @Override
     public boolean isA(String classification){
-        return classification.equalsIgnoreCase("Tree") || super.isA(classification);
+        return classification.equalsIgnoreCase("CollinsQuillian.Abstract.Tree") || super.isA(classification);
 
     }
 

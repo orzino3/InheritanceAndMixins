@@ -1,3 +1,5 @@
+package CollinsQuillian.Abstract;
+
 public abstract class Bird extends Animal {
     @Override
     public boolean hasProperty(String property) {

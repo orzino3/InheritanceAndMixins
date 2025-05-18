@@ -1,3 +1,5 @@
+package CollinsQuillian.Abstract;
+
 public abstract class Living {
     public boolean isA(String classification) {
         return classification.equalsIgnoreCase("living");

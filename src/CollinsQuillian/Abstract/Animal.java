@@ -1,8 +1,10 @@
+package CollinsQuillian.Abstract;
+
 public abstract class Animal extends Living{
 
     @Override
     public boolean isA(String classification){
-        return super.isA(classification) || classification.equalsIgnoreCase("Animal");
+        return super.isA(classification) || classification.equalsIgnoreCase("CollinsQuillian.Abstract.Animal");
 
     }
 

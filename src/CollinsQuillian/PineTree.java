@@ -1,4 +1,8 @@
-public class PineTree extends Tree{
+package CollinsQuillian;
+
+import CollinsQuillian.Abstract.Tree;
+
+public class PineTree extends Tree {
 
     @Override
     public boolean isA(String classification){

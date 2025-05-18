@@ -1,4 +1,8 @@
-public class OakTree extends Tree{
+package CollinsQuillian;
+
+import CollinsQuillian.Abstract.Tree;
+
+public class OakTree extends Tree {
 
     @Override
     public boolean isA(String classification){
@@ -9,6 +13,5 @@ public class OakTree extends Tree{
     @Override
     public boolean hasProperty(String property){
         return property.equalsIgnoreCase("has leaves") || super.hasProperty(property);
-
     }
 }

@@ -1,4 +1,8 @@
-public class Sunfish extends Fish{
+package CollinsQuillian;
+
+import CollinsQuillian.Abstract.Fish;
+
+public class Sunfish extends Fish {
 
     @Override
     public boolean isA(String classification){

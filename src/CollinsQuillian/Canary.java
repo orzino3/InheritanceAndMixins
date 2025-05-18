@@ -1,3 +1,7 @@
+package CollinsQuillian;
+
+import CollinsQuillian.Abstract.Bird;
+
 public class Canary extends Bird {
 
     @Override

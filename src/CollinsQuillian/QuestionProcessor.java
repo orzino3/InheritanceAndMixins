@@ -1,3 +1,7 @@
+package CollinsQuillian;
+
+import CollinsQuillian.Abstract.Living;
+
 import java.util.*;
 
 public class QuestionProcessor {
