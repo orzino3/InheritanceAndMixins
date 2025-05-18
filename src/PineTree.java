@@ -1,12 +1,14 @@
 public class PineTree extends Tree{
 
     @Override
-    public boolean hasProperty(String property) {
-        return false;
+    public boolean isA(String classification){
+        return classification.equalsIgnoreCase("Pine tree") || super.isA(classification);
+
     }
 
     @Override
-    public boolean isA(String classification) {
-        return false;
+    public boolean hasProperty(String property){
+        return property.equalsIgnoreCase("green") || super.hasProperty(property);
+
     }
 }

@@ -1,12 +1,14 @@
 public class Rose extends Flower
 {
     @Override
-    public boolean hasProperty(String property) {
-        return false;
+    public boolean isA(String classification){
+        return classification.equalsIgnoreCase("rose") || super.isA(classification);
+
     }
 
     @Override
-    public boolean isA(String classification) {
-        return false;
+    public boolean hasProperty(String property){
+        return property.equalsIgnoreCase("red") || super.hasProperty(property);
+
     }
 }

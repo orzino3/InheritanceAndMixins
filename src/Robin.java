@@ -1,8 +1,8 @@
-public class Salmon extends Fish{
-
+public class Robin extends Bird
+{
     @Override
     public boolean isA(String classification){
-        return classification.equalsIgnoreCase("salmon") || super.isA(classification);
+        return classification.equalsIgnoreCase("robin") || super.isA(classification);
 
     }
 
