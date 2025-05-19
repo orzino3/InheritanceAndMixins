@@ -12,10 +12,10 @@ public class Main {
 
         while (true) {
             String question = scanner.nextLine();
-            if (question.equalsIgnoreCase("Finish")) break;
+            if (question.equalsIgnoreCase(Constants.END_WORD)) break;
 
             String answer = questionProcessor.answerQuestion(question);
-            System.out.println("Answer: " + answer);
+            System.out.println(Constants.ANSWER_OPENING + answer);
         }
     }
 }

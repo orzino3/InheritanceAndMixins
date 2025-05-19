@@ -54,4 +54,7 @@ public class Constants {
         ---------------------
         
         To stop asking questions, just type - "Finish"\s""";
+
+    public static String END_WORD = "Finish";
+    public static String ANSWER_OPENING = "Answer: ";
 }
