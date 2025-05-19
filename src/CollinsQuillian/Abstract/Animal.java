@@ -10,7 +10,7 @@ public abstract class Animal extends Living{
 
     @Override
     public boolean hasProperty(String property){
-        return property.equalsIgnoreCase("Can Move") || property.equalsIgnoreCase("Has Skin");
+        return property.equalsIgnoreCase("Can Move") || property.equalsIgnoreCase("Has Skin") || super.hasProperty(property);
 
     }
 }

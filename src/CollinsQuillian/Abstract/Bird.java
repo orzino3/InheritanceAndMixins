@@ -3,11 +3,10 @@ package CollinsQuillian.Abstract;
 public abstract class Bird extends Animal {
     @Override
     public boolean hasProperty(String property) {
-        switch (property.toLowerCase()) {
-            case "can fly": return true;
-            case "has wings": return true;
-            default: return false;
-        }
+
+        return property.equalsIgnoreCase("can fly")  ||
+                property.equalsIgnoreCase("has wings")  ||
+                super.hasProperty(property);
     }
 
     @Override

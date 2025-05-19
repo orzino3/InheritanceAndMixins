@@ -9,7 +9,10 @@ public abstract class Tree extends Plant{
 
     @Override
     public boolean hasProperty(String property){
-        return property.equalsIgnoreCase("big") || property.equalsIgnoreCase("Has branches")  || property.equalsIgnoreCase("Has barks")  || super.hasProperty(property);
+        return property.equalsIgnoreCase("big") ||
+                property.equalsIgnoreCase("Has branches")  ||
+                property.equalsIgnoreCase("Has bark")  ||
+                super.hasProperty(property);
 
     }
 }

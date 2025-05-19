@@ -6,5 +6,8 @@ public abstract class Living {
 
     }
 
-    public abstract boolean hasProperty(String property);
+    public boolean hasProperty(String property){
+        return property.equalsIgnoreCase("can grow") || property.equalsIgnoreCase("alive");
+
+    }
 }

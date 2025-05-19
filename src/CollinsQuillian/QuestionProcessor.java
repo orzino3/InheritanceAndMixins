@@ -1,12 +1,13 @@
 package CollinsQuillian;
 
 import CollinsQuillian.Abstract.Living;
+import CollinsQuillian.Constants.Constants;
 
 import java.util.*;
 
 public class QuestionProcessor {
-    private final List<String> classes = List.of("animal", "bird", "living", "fish", "plant", "flower","tree");
-    private final List<String> characteristics = List.of("can fly", "can swim", "can grow", "has wings", "has scales", "has gills", "red", "yellow", "can sing","green","has leaves","has barks","big", "has branches");
+    private final List<String> classes = Constants.ABSTRACT_CLASSES;
+    private final List<String> characteristics = Constants.CHARACTERISTICS;
     private final Map<String, Living> objectMap = new HashMap<>();
 
     public QuestionProcessor() {
@@ -21,6 +22,7 @@ public class QuestionProcessor {
     }
 
     public String answerQuestion(String question) {
+        StringBuilder sb = new StringBuilder();
         question = question.trim().toLowerCase();
 
         for (String key : this.objectMap.keySet()) {
@@ -28,23 +30,25 @@ public class QuestionProcessor {
                 Living obj = this.objectMap.get(key);
 
                 for (String classification : classes) {
-                    if (( question.contains("does")) && question.contains(classification) && !question.contains("color")&& !question.contains("has")) {
-                        return obj.isA(classification) ? "Yes\n" + getInheritanceChain(obj) : "No\n" + getInheritanceChain(obj);
+                    if ((question.contains("is")) && question.contains(classification)
+                            && !question.contains(Constants.FORBIDDEN_WORD_1)&& !question.contains(Constants.FORBIDDEN_WORD_2)
+                            && !question.contains(Constants.FORBIDDEN_WORD_3)) {
+                        return printAnswer(obj,obj.isA(classification));
                     }
                 }
 
                 for (String prop : characteristics) {
                     if (question.contains(prop)) {
-                        return obj.hasProperty(prop) ? "Yes\n" + getInheritanceChain(obj) : "No\n" + getInheritanceChain(obj);
+                        return printAnswer(obj,obj.hasProperty(prop));
                     }
                 }
             }
         }
 
-        return "Not a valid question";
+        return Constants.DEFAULT_MESSAGE;
     }
 
-    public static String getInheritanceChain(Object obj) {
+    private static String getInheritanceChain(Object obj) {
         StringBuilder text = new StringBuilder();
         Class<?> currentClass = obj.getClass();
 
@@ -58,5 +62,9 @@ public class QuestionProcessor {
         }
 
         return text.toString();
+    }
+
+    private String printAnswer(Object obj, boolean statement){
+        return (statement ? "Yes" : "No") + "\n" + getInheritanceChain(obj);
     }
 }

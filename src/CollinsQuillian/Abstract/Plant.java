@@ -10,7 +10,7 @@ public abstract class Plant extends Living{
 
     @Override
     public boolean hasProperty(String property){
-        return property.equalsIgnoreCase("Has roots");
+        return property.equalsIgnoreCase("Has roots") || super.hasProperty(property);
 
     }
 }
