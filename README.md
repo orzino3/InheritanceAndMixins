@@ -1,9 +1,16 @@
-﻿# Object Oriented Programming Assignment #1
- 
-<h3>#Inheritance Collins & Quillian Model: </h3>
+# Object Oriented Programming Assignment #1
 
-![image](https://github.com/user-attachments/assets/276f94b7-7dbf-411e-b3ac-ad1ed772eb74)
+<h3 align="center">#Inheritance Collins & Quillian Model:</h3>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/276f94b7-7dbf-411e-b3ac-ad1ed772eb74" />
+</p>
 
-<h3>﻿# Mixin Controlled Home Environment Model:</h3>
+<h3 align="center">Implementation of the Model:</h3>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3c7d9f54-b55a-4aa7-87f4-bd5123bc3f55" />
+</p>
 
-![image](https://github.com/user-attachments/assets/1b2fc34b-fa32-4cd9-ac09-1e261f4af7ed)
+<h3 align="center"># Mixin Controlled Home Environment Model:</h3>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1b2fc34b-fa32-4cd9-ac09-1e261f4af7ed" />
+</p>
