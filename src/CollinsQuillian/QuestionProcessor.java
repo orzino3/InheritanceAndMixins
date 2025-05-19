@@ -30,7 +30,7 @@ public class QuestionProcessor {
                 Living obj = this.objectMap.get(key);
 
                 for (String classification : classes) {
-                    if ((question.contains("is")) && question.contains(classification)
+                    if ((question.contains("is a")) && question.contains(classification)
                             && !question.contains(Constants.FORBIDDEN_WORD_1)&& !question.contains(Constants.FORBIDDEN_WORD_2)
                             && !question.contains(Constants.FORBIDDEN_WORD_3)) {
                         return printAnswer(obj,obj.isA(classification));
