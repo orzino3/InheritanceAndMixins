@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c4abca5d-f2f1-4907-9a54-84fd3593604c" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/src/CollinsQuillian/Constants/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollinsQuillian/Constants/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollinsQuillian/Abstract/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollinsQuillian/Abstract/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollinsQuillian/Abstract/Plant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollinsQuillian/Abstract/Plant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CollinsQuillian/Abstract/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CollinsQuillian/Abstract/Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +98,7 @@
       <workItem from="1747160252154" duration="2657000" />
       <workItem from="1747586019219" duration="8728000" />
       <workItem from="1747595613220" duration="2076000" />
-      <workItem from="1747639714913" duration="6350000" />
+      <workItem from="1747639714913" duration="6661000" />
     </task>
     <task id="LOCAL‎-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -170,7 +172,15 @@
       <option name="project" value="LOCAL‎" />
       <updated>1747647127066</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL‎-00010" summary="update">
+      <option name="closed" value="true" />
+      <created>1747647441176</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL‎-00010" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1747647441176</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
