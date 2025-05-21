@@ -1,4 +1,4 @@
-package CollinsQuillian;
+package CollinsQuillian.Entities;
 
 import CollinsQuillian.Abstract.Flower;
 

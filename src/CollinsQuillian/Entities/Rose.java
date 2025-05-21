@@ -1,12 +1,12 @@
-package CollinsQuillian;
+package CollinsQuillian.Entities;
 
-import CollinsQuillian.Abstract.Fish;
+import CollinsQuillian.Abstract.Flower;
 
-public class Salmon extends Fish {
-
+public class Rose extends Flower
+{
     @Override
     public boolean isA(String classification){
-        return classification.equalsIgnoreCase("salmon") || super.isA(classification);
+        return classification.equalsIgnoreCase("rose") || super.isA(classification);
 
     }
 

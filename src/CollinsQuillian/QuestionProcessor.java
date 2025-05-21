@@ -2,6 +2,7 @@ package CollinsQuillian;
 
 import CollinsQuillian.Abstract.Living;
 import CollinsQuillian.Constants.Constants;
+import CollinsQuillian.Entities.*;
 
 import java.util.*;
 
