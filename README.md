@@ -7,7 +7,8 @@
 
 <h3 align="center">Implementation of the Model:</h3>
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/3c7d9f54-b55a-4aa7-87f4-bd5123bc3f55" />
+  <img src="https://github.com/user-attachments/assets/145314f1-8117-4d80-a13b-406cda9e97ab
+" />
 </p>
 
 <h3 align="center"># Mixin Controlled Appliances Model:</h3>
