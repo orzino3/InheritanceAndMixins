@@ -10,7 +10,7 @@
   <img src="https://github.com/user-attachments/assets/3c7d9f54-b55a-4aa7-87f4-bd5123bc3f55" />
 </p>
 
-<h3 align="center"># Mixin Controlled Home Environment Model:</h3>
+<h3 align="center"># Mixin Controlled Appliances Model:</h3>
 <p align="center">
   <img src="https://github.com/user-attachments/assets/1b2fc34b-fa32-4cd9-ac09-1e261f4af7ed" />
 </p>
