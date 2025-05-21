@@ -4,7 +4,7 @@ public abstract class Fish extends Animal{
 
     @Override
     public boolean isA(String classification){
-        return classification.equalsIgnoreCase("CollinsQuillian.Abstract.Fish") || super.isA(classification);
+        return classification.equalsIgnoreCase("Fish") || super.isA(classification);
 
     }
 
