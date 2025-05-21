@@ -48,7 +48,9 @@ public class Constants {
         Please use proper english
         Example:
         The color of ..... is ..... ?
-        Is a ..... a type of ..... ?
+        A ..... is a type of a ..... ?
+        A ..... has ..... ?
+        A ..... can ..... ?
         
         Output: Yes / No + Inheritance Tree.
         ---------------------
