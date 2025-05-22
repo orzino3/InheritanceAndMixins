@@ -15,7 +15,7 @@ This project includes two separate implementations in Java:
 - [Technologies Used](#️-technologies-used)
 - [How to Run](#-running-the-project)
 - [Team Members](#-team-members)
-- [License](#license)
+- [License](#-license)
 
 ---
 
