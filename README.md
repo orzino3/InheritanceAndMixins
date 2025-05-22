@@ -10,11 +10,11 @@ This project includes two separate implementations in Java:
 
 ## 📌 Contents
 
-- [Project 1: Hierarchical Model](#project-1-hierarchical-model)
-- [Project 2: Mixin with Smart Devices](#project-2-mixin-with-smart-devices)
-- [Technologies Used](#technologies-used)
-- [How to Run](#how-to-run)
-- [Team Members](#team-members)
+- [Project 1: Hierarchical Model](#project-1-hierarchical-model-collins--quillian-1969)
+- [Project 2: Mixin with Smart Devices](#project-2-mixin-design-with-smart-devices)
+- [Technologies Used](#️technologies-used)
+- [How to Run](#-running-the-project)
+- [Team Members](#-team-members)
 - [License](#license)
 
 ---
@@ -34,7 +34,6 @@ This part of the project is a Java-based simulation of a semantic memory model p
 
 ### 🌳 Hierarchy Example
 
-The following diagram illustrates the hierarchy used:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/585698e1-fbd6-4d43-a08a-e59c204adb81" alt="Hierarchical Model" width="600"/>
 </p>
@@ -42,6 +41,7 @@ The following diagram illustrates the hierarchy used:
 <p align="center">
   <img src="https://github.com/user-attachments/assets/40d0ff6b-509e-430e-8cce-d17c0c92da1e" alt="Hierarchical Model Console" width="600"/>
 </p>
+
 ---
 
 ## 📁 Project 2: Mixin Design with Smart Devices
@@ -63,7 +63,7 @@ The second part of the assignment explores the concept of **Mixin-like behavior*
 - Fridge: Operable, Temperature
 - Oven: Operable, Timer, Temperature
 
-### Screenshot 
+### Screenshot
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/a3c27e17-260c-4ded-a53d-809f2d4a7542" alt="Mixin Model Console" width="600"/>
@@ -92,11 +92,17 @@ To run either part of the project:
 3. Run the `Main` class.
 4. Follow the console prompts.
 
+---
+
 ## 👥 Team Members
-**Or Zino**
 
-**Gal Shlomay**
+- **Or Zino**  
+- **Gal Shlomay**  
+- **Tohar Krasnovsky**  
+- **Shaked Shira Etedgi**
 
-**Tohar Krasnovsky**
+---
 
-**Shaked Shira Etedgi**
+## 📄 License
+
+This project is submitted as part of a university assignment. Not for commercial use.
