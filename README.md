@@ -105,4 +105,4 @@ To run either part of the project:
 
 ## 📄 License
 
-This project is submitted as part of a university assignment. Not for commercial use.
+This project is submitted as part of a OOP2 assignment in Ashkelon Academic College. Not for commercial use.
