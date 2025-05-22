@@ -50,7 +50,7 @@ The second part of the assignment explores the concept of **Mixin-like behavior*
 
 ### 🧩 Features
 
-- Devices implement **interfaces** based on functionality (e.g., `Turnable`, `AdjustableVolume`, `HasTimer`).
+- Devices implement **interfaces** based on functionality (e.g., `Operable`, `Audio`, `Timer`).
 - Devices are grouped by **room** (e.g., Living Room, Kitchen).
 - Users can:
   - **Activate all devices** in a specific room
