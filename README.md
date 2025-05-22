@@ -10,7 +10,7 @@ This project includes two separate implementations in Java:
 
 ## 📌 Contents
 
-- [Project 1: Hierarchical Model](#project-1:-hierarchical-model-collins--quillian-1969)
+- [Project 1: Hierarchical Model](#project-1-hierarchical-model-collins--quillian-1969)
 - [Project 2: Mixin with Smart Devices](#project-2-mixin-design-with-smart-devices)
 - [Technologies Used](#️technologies-used)
 - [How to Run](#-running-the-project)
